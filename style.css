@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px  rgb(70, 67, 67);
+}
+/* Pseudo classes - syntax: selector:pseudo-class{property:value;} */
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(rgb(224, 238, 32) , aquamarine);
+    color: blueviolet;
+}
+.profile{
+    margin-top: 70px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+   
+    font-family: 'Pacifico', cursive;
+}
+#name{
+    font-size: 50px;
+    line-height: 2;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 20px;
+}
+#bio{
+    padding: 50px;
+    font-size: 20px;
+}
+.line{
+    height: 6px;
+    background-color: rgb(12, 6, 6);
+    width: 70px;
+    margin: auto;
+}
+
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#writings a:hover{
+    color: brown;
+}
+#contact iframe{
+    width: 100%;
+}
+#contact a{
+    text-shadow:none ;
+}
+.contact_1 h3{
+    display: inline;
+}
